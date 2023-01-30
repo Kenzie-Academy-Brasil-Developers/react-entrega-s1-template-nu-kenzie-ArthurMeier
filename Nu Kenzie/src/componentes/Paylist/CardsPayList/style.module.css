@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap");
+
+.cardContainer {
+  width: 351px;
+  height: 156px;
+  background: #f8f9fa;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  border-left: 4px solid #03b898;
+  margin: 0 0 19px 19px;
+}
+
+.valueContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  margin: 8px 0 2px 16px;
+  color: #212529;
+}
+
+.description {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 22px;
+  margin: 0 0 10px 16px;
+  color: #343a40;
+}
+
+.value {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 22px;
+  color: #212529;
+  margin: 0 0 10px 16px;
+}
+
+.buttonDelete {
+  border: none;
+  height: 22px;
+  width: 22px;
+  background: #e9ecef;
+  border-radius: 2.46154px;
+  margin: 0 0 16px 16px;
+}
+
+@media (min-width: 426px) {
+  .cardContainer {
+    width: 560px;
+    height: 87px;
+    margin: 0 0 19px 32px;
+    flex-direction: row;
+  }
+
+  .title {
+    width: 337px;
+  }
+
+  .value {
+    margin: 18px 27px 0 41px;
+  }
+
+  .buttonDelete {
+    margin: 18px 27px 0 27px;
+  }
+}

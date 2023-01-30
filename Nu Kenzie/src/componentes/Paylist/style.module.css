@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap");
+.containerTitle {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+
+  color: #212529;
+  margin: 0 0 16px 20px;
+}
+
+.containerDescription {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  color: #343a40;
+  margin-left: 20px;
+}
+@media (min-width: 426px) {
+  .containerTitle {
+    margin: 39px 0 29px 20px;
+  }
+
+  .containerDescription {
+    margin-top: 2px;
+  }
+}
