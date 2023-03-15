@@ -17,7 +17,7 @@
   color: #343a40;
   margin-left: 20px;
 }
-@media (min-width: 426px) {
+@media (min-width: 769px) {
   .containerTitle {
     margin: 39px 0 29px 20px;
   }

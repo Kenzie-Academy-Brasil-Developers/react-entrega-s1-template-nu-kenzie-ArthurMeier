@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap");
 
 .cardContainer {
-  width: 351px;
+  width: 250px;
   height: 156px;
   background: #f8f9fa;
   border-radius: 4px;
@@ -55,7 +55,7 @@
   margin: 0 0 16px 16px;
 }
 
-@media (min-width: 426px) {
+@media (min-width: 769px) {
   .cardContainer {
     width: 560px;
     height: 87px;

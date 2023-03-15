@@ -45,9 +45,10 @@
   color: #343a40;
 }
 
-@media (min-width: 426px) {
+@media (min-width: 769px) {
   .totalValueContainer {
     width: 393px;
-    margin: 0 59px 0 258px;
+    margin: auto;
+    margin-top: 10px;
   }
 }

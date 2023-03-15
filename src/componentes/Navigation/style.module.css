@@ -19,7 +19,7 @@
   margin: 16px 19px 13px 0;
 }
 
-@media (min-width: 426px) {
+@media (min-width: 769px) {
   .mainNav {
     height: 88px;
   }
