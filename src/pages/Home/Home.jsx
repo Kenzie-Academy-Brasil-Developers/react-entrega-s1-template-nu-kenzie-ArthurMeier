@@ -1,7 +1,7 @@
 import React from "react";
 import style from "./style.module.css";
 import logo from "../../assets/NuKenzie.svg";
-import image from "../../assets/illustration.svg";
+import image from "../../assets/Illustration.svg";
 
 const Home = ({ selectPage }) => {
   return (
